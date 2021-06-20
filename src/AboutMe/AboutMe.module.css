@@ -1,0 +1,91 @@
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-left: 450px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #111;
+
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding: 0 40px;
+    position: relative;
+    clear: both;
+}
+
+.container2 {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    padding: 100px 0;
+}
+
+.AboutImage {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    margin-bottom: 48px;
+}
+
+.AboutImage img {
+    max-width: 90%;
+}
+.name {
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 26px;
+    color: white;
+}
+.description {
+    width: 100%;
+    height: auto;
+    clear: both;
+}
+.descInner {
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    color: white;
+    font-family: "Mulish", sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: .5px;
+    word-wrap: break-word;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+.left {
+    width: 55%;
+    padding-right: 50px;
+}
+.right {
+    width: 45%;
+    padding-left: 50px;
+
+}
+
+.right a {
+    text-decoration: none;
+    color: #787878;
+    transition: all .3s ease;
+}
+
+.right  a:hover {
+    color: white;
+    letter-spacing: 2px;
+}

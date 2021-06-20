@@ -1,6 +1,7 @@
 import React from 'react'
 import style from './Main.module.css';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faReact } from '@fortawesome/free-brands-svg-icons'
 function Main() {
     return (
         <div className={style.header}>
